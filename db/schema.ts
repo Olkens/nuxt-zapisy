@@ -3,8 +3,8 @@ import {integer, sqliteTable, text} from "drizzle-orm/sqlite-core";
 
 export const specialitiesTable = sqliteTable("speciality", {
     id: integer("id").primaryKey(),
-    name: text("name"),
-    speciality: text('speciality'),
+    name: text("name").notNull(),
+    speciality: text('speciality').notNull(),
     createdAt: text("created_at").default(sql`CURRENT_TIMESTAMP`),
 });
 
