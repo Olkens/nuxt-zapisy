@@ -1,0 +1,55 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "id": "4d162ca6-1e1f-47b6-bcd8-9e55ba6d9e3a",
+  "prevId": "132813f0-c862-46d8-b39e-7af48da29c7e",
+  "tables": {
+    "speciality": {
+      "name": "speciality",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "speciality": {
+          "name": "speciality",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false,
+          "default": "CURRENT_TIMESTAMP"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {
+      "\"speciality\".\"first_name\"": "\"speciality\".\"name\"",
+      "\"speciality\".\"last_name\"": "\"speciality\".\"speciality\""
+    }
+  }
+}
