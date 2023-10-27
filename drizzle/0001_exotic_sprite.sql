@@ -1,0 +1,1 @@
+ALTER TABLE `specialties` RENAME TO `speciality`;

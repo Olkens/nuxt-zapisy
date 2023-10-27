@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1697995222727,
+      "tag": "0000_messy_betty_brant",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1698003858867,
+      "tag": "0001_exotic_sprite",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1698004058888,
+      "tag": "0002_amazing_fixer",
+      "breakpoints": true
+    }
+  ]
+}
