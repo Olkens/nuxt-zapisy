@@ -1,9 +1,9 @@
-import { specialitiesTable } from "../../../db/schema";
+import { speciality } from "~/db/schema/speciality";
 import { db } from "../sqlite-service";
 
 export default defineEventHandler(async () => {
     try {
-        const specResp = db.select().from(specialitiesTable).all();
+        const specResp = db.select().from(speciality).all();
         return { "speciality" : specResp}
     } catch (e: any) {
         throw createError({

@@ -22,6 +22,34 @@
       "when": 1698004058888,
       "tag": "0002_amazing_fixer",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1698429825818,
+      "tag": "0003_fast_rogue",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1698429896063,
+      "tag": "0004_early_xorn",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1698431445511,
+      "tag": "0005_nostalgic_wraith",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1698569649350,
+      "tag": "0006_tense_vengeance",
+      "breakpoints": true
     }
   ]
 }
